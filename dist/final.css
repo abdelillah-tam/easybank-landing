@@ -642,10 +642,6 @@ video {
   flex-basis: 32rem;
 }
 
-.basis-\[64rem\] {
-  flex-basis: 64rem;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -691,11 +687,6 @@ video {
   background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
 .bg-light-grayish-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(220 16% 96% / var(--tw-bg-opacity));
@@ -714,11 +705,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 98 7 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-l {
@@ -839,12 +825,12 @@ video {
 }
 
 @media (max-width: 488px) {
-  .ml\:m-auto {
-    margin: auto;
-  }
-
   .ml\:m-1 {
     margin: 0.25rem;
+  }
+
+  .ml\:m-auto {
+    margin: auto;
   }
 
   .ml\:mt-5 {
@@ -867,8 +853,8 @@ video {
     width: 100%;
   }
 
-  .ml\:basis-\[100rem\] {
-    flex-basis: 100rem;
+  .ml\:basis-\[124rem\] {
+    flex-basis: 124rem;
   }
 
   .ml\:basis-\[24\%\] {
@@ -883,38 +869,6 @@ video {
     flex-basis: 64rem;
   }
 
-  .ml\:basis-\[180rem\] {
-    flex-basis: 180rem;
-  }
-
-  .ml\:basis-\[10rem\] {
-    flex-basis: 10rem;
-  }
-
-  .ml\:basis-\[128rem\] {
-    flex-basis: 128rem;
-  }
-
-  .ml\:basis-\[108rem\] {
-    flex-basis: 108rem;
-  }
-
-  .ml\:basis-\[112rem\] {
-    flex-basis: 112rem;
-  }
-
-  .ml\:basis-\[116rem\] {
-    flex-basis: 116rem;
-  }
-
-  .ml\:basis-\[120rem\] {
-    flex-basis: 120rem;
-  }
-
-  .ml\:basis-\[124rem\] {
-    flex-basis: 124rem;
-  }
-
   .ml\:flex-col {
     flex-direction: column;
   }
@@ -927,24 +881,12 @@ video {
     align-items: center;
   }
 
-  .ml\:justify-center {
-    justify-content: center;
-  }
-
   .ml\:justify-between {
     justify-content: space-between;
   }
 
-  .ml\:justify-around {
-    justify-content: space-around;
-  }
-
   .ml\:justify-evenly {
     justify-content: space-evenly;
-  }
-
-  .ml\:justify-stretch {
-    justify-content: stretch;
   }
 
   .ml\:px-6 {
